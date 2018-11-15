@@ -12,7 +12,7 @@ console.log(nomi.length);
 // }
 // -----------------------------------------while2
 var check = false;
-var nom = 'Fabio';
+var nom = 'Faio';
 var i = 0;
 var ris = 'non trovato'
 
@@ -22,7 +22,7 @@ var ris = 'non trovato'
 //inoltre, se non metto i < nomi.length, il ciclo
 //andra avanti all infinito se non trova il nome
 // (cioe i continuera a salire con i++)
-while (i < nomi.length) {
+while (!check && i < nomi.length) {
   if (nom === nomi[i]) {
     check = true;
     ris = 'trovato'
