@@ -17,7 +17,7 @@ var i = 0;
 var ris = 'non trovato'
 
 // while(!check) significa : finche vale la condizione booleana
-// che check = false, continua il ciclo. Diciamo che e'
+// che check = false (cioe  non check, ovvero !check), continua il ciclo. Diciamo che e'
 //uno strumento di controllo.
 //inoltre, se non metto i < nomi.length, il ciclo
 //andra avanti all infinito se non trova il nome
